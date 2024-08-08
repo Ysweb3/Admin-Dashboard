@@ -1,9 +1,11 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f557b16;
 }
 *{
     margin: 0px;
     font-size: 25px;
+    
 }
 .container{
     display: grid;
@@ -14,7 +16,7 @@ body{
     display: grid;
     grid-template-rows: 120px 330px 200px;
     background-color: #1892d3;
-    height:99vh;
+    height:100%;
     width: 100%;
     font-size: 25px;
     margin-right: 20px;
@@ -31,13 +33,13 @@ body{
     color: white;
 
 }
-.header{
+.main{
     margin: 0px;
     padding: 0px;
 
 }
 .header-top{
-   
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 400px;
     flex-direction: row;
@@ -63,6 +65,7 @@ body{
 }
 
 .header-bottom{
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 500px;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
@@ -105,6 +108,48 @@ body{
     border: none;
     background-color: #0f557b16;
 }
+.main-content{
+    padding: 25px;
+}
+.card{
+    display: flex;
+    background-color: white;
+    height: 250px;
+    width: 450px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+}
+.card-heading{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding: 20px;
+    padding-left:40px;
+}
+.card-content{
+    font-size: 20px;
+    padding-left:40px;
+}
+.card-icons{
+   padding-top: 30px;
+   padding-left: 290px;
+}
+.card-svg{
+    padding: 5px;
+}
+.card-side-line{
+    background-color: rgb(255, 132, 0);
+    height: 250px;
+    width: 20px;
+    border-radius: 10px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1200px;
+}
+
+
 li{
     color: white;
     display: flex;
