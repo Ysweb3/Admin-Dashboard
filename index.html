@@ -9,24 +9,45 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h3>Dashboard</h3>
+            <h3 class="dashboard-title"><span><img class="svg" src="assets/svg/view-dashboard-outline.svg" alt="Dashboard" height="50px" width="50px"></span>Dashboard</h3>
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>    
+                <li><span><img class="svg-small" src="assets/svg/home-outline.svg" alt="Home" height="25px"></span>Home</li>
+                <li><span><img class="svg-small" src="assets/svg/card-account-details-outline.svg" alt="Details" height="25px"></span>Profile</li>
+                <li><span><img class="svg-small" src="assets/svg/message-fast-outline.svg" alt="Messages" height="25px"></span>Messages</li>
+                <li><span><img class="svg-small" src="assets/svg/history.svg" alt="History" height="25px"></span>History</li>
+                <li><span><img class="svg-small" src="assets/svg/file-tree.svg" alt="Tasks" height="25px"></span>Tasks</li>
+                <li><span><img class="svg-small" src="assets/svg/account-group-outline.svg" alt="Communities" height="25px"></span>Communities</li>    
             </ul>
             <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><span><img class="svg-small" src="assets/svg/cog-outline.svg" alt="Settings" height="25px"></span>Settings</li>
+                <li><span><img class="svg-small" src="assets/svg/forum-outline.svg" alt="Support" height="25px"></span>Support</li>
+                <li><span><img class="svg-small" src="assets/svg/shield-account-variant-outline.svg" alt="Privacy" height="25px"></span>Privacy</li>
             </ul>
         </div>
         <div class="header">
-            <p>Hi there 
-            </p>
+            <div class="header-top">
+                <div class="header-top-left">
+                    <span><img src="assets/svg/magnify.svg" alt="" height="25px" style="padding-top: 5px;"></span>
+                    <input type="search" id="search-bar" placeholder="">
+                </div>
+                <div class="header-top-right">
+                    <span><img src="assets/svg/bell-ring-outline.svg" alt="Bell" height="25px"></span>
+                    <span><img src="assets/img/user.png" alt="userprofile" height="50px"></span>
+                    <span><p>UserName</p></span>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="header-bottom-left">
+                    <span><img src="assets/img/user.png" alt="userprofile" height="64px"></span>
+                    <span><p>Hi there,</p><h4>User (@UserHandle)</h4></span>
+                   
+                </div>
+                    <div class="header-bottom-right">
+                    <span><button class="header-button">New</button></span>
+                    <span><button class="header-button">Upload</button></span>
+                    <span><button class="header-button">Share</button></span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
